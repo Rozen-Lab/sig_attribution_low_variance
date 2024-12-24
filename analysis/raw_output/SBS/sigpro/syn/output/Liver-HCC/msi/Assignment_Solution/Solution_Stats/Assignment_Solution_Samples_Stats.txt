@@ -1,0 +1,4 @@
+Sample Names	Total Mutations	Cosine Similarity	L1 Norm	L1_Norm_%	L2 Norm	L2_Norm_%	KL Divergence	Correlation
+Liver-HCC::MSI-H.S.36	6197	0.98	1131.071	18.252%	168.131	19.938%	0.02994	0.954
+Liver-HCC::MSI-H.S.51	11570	0.979	2148.64	18.571%	316.542	20.6%	0.03615	0.948
+Liver-HCC::MSI-H.S.1	38994	0.975	6811.802	17.469%	1662.866	22.111%	0.02451	0.966

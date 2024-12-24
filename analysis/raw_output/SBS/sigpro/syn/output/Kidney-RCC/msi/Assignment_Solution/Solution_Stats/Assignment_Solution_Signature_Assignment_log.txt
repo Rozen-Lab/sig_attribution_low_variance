@@ -1,0 +1,42 @@
+************************ Stepwise Description of Signature Assignment to Samples ************************
+
+
+
+
+                    ################ Sample 1 #################
+############################# Initial Composition ####################################
+     SBS1  SBS4  SBS5   SBS12  SBS13  ...   SBS21  SBS40a  SBS40b  SBS40c   SBS44
+0  1217.0  43.0  21.0  1180.0   30.0  ...  1488.0  3314.0  3187.0   130.0  5144.0
+
+[1 rows x 11 columns]
+L2 Error %: 0.1
+Cosine Similarity: 0.99
+############################## Composition After Initial Remove ###############################
+          SBS1        SBS21       SBS40a       SBS40b        SBS44
+0  1209.095764  2010.254629  3395.382472  3818.770041  5321.497094
+L2 Error %: 0.13
+Cosine Similarity: 0.99
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS5', 'SBS21', 'SBS40a', 'SBS40b', 'SBS44']
+L2 Error % 0.12
+Cosine Similarity 0.99
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS5', 'SBS21', 'SBS40a', 'SBS40b', 'SBS44']
+L2 Error % 0.12
+Cosine Similarity 0.99
+
+#################### Final Composition #################################
+['SBS1', 'SBS5', 'SBS21', 'SBS40a', 'SBS40b', 'SBS44']
+L2 Error % 0.12
+Cosine Similarity 0.99
+####################################### Composition After Add-Remove #######################################
+     SBS1    SBS5   SBS21  SBS40a  SBS40b   SBS44
+0  1164.0  2149.0  1834.0  2325.0  3286.0  4997.0
+L2 Error %: 0.12
+Cosine Similarity: 0.99
