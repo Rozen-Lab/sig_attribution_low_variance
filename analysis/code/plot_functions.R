@@ -10,11 +10,12 @@ source("analysis/code/common_utils.R")
 ## GLOBAL VARIABLES AND COMMON FUNCTIONS #####################
 
 get_colors = function(mutation_type) {
-  tools = tools_to_plot_and_order("SBS") 
-  custom_colors1 = 
-    rev(RColorBrewer::brewer.pal(12, "Set3"))
-  custom_colors = c(custom_colors1, "#999933")
-  names(custom_colors) = tools
+  custom_colors <-
+    c(pasa = "#FFED6F", musical = "#CCEBC5", fitms_0.010 = "#BC80BD",  
+      msa_default = "#D9D9D9", sigpro = "#FCCDE5", mp = "#B3DE69",  
+      deconstruct = "#FDB462", yapsa = "#80B1D3", sigest = "#FB8072",  
+      sigspack = "#BEBADA", mutsig = "#FFFFB3", sigfit = "#8DD3C7",  
+      siglasso = "#999933")
   return(custom_colors)
 }
 
