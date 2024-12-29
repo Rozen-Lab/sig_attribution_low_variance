@@ -9,6 +9,4 @@ The R code for the "Presence Attribute Signature Activity" (PASA) algorithm is f
 
 The PASA algorithm is implemented in the function `mSigAct::PresenceAttributeSigActivity`.
 
-*IMPORTANT:* This repository contains only analysis of synthetic SBS spectra with what we believe is an underesetimate of sampling variance. 
-
-For the main results of the paper, please go to: https://github.com/Rozen-Lab/sig_attribution_paper_code
+**IMPORTANT:** This repository contains only an analysis of synthetic SBS spectra with what we believe is an underestimate of sampling variance. For the main results of the paper, please go to: https://github.com/Rozen-Lab/sig_attribution_paper_code
